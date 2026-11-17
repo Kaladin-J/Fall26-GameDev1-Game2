@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     #endregion
 
 # region Movement
-    public float speed = 5f;
+    public float speed = 250f;
     [HideInInspector] public Vector2 direction = Vector2.zero;
     [HideInInspector] public Vector2 xzVel = Vector2.zero;
     [HideInInspector] public float yVel = 0;
@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
     #endregion
 
 # region Forces
-    public float jumpImpulse = 10f;
+    public float jumpImpulse = 7.5f;
     public float gravity = 9.81f; //Gravity is always positive
     #endregion
 
