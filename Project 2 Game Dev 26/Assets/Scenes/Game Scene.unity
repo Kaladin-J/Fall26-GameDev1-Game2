@@ -2462,6 +2462,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df08879b10cfb4140bd1ce2cfb3d58f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
+  controller: {fileID: 0}
+  rend: {fileID: 0}
+  speed: 5
+  direction: {x: 0, y: 0}
+  xzVel: {x: 0, y: 0}
+  yVel: 0
+  velocity: {x: 0, y: 0, z: 0}
+  jumpImpulse: 10
+  gravity: 9.81
+  jump: 0
 --- !u!143 &5786617930649122612
 CharacterController:
   m_ObjectHideFlags: 0
@@ -2499,6 +2509,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 541a2407d6ffa4f45839f8f53f62b556, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StateMachine
+  states:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!33 &5849235612501261288
 MeshFilter:
   m_ObjectHideFlags: 0
